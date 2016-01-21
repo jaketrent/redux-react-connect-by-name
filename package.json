@@ -4,6 +4,8 @@
   "description": "Connect to a redux store using named selectors mapped to your reducers",
   "main": "index.js",
   "scripts": {
+    "compile": "babel src/ --source-maps --debug --out-dir lib/",
+    "prepublish": "npm run compile",
     "test": "echo \"No tests specified; Everything is fine.\" && exit 0"
   },
   "keywords": [
@@ -13,10 +15,19 @@
     "selector"
   ],
   "author": "jaketrent",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaketrent/redux-react-connect-by-name.git"
+  },
   "license": "MIT",
   "peerDependencies": {
     "react": "^0.14.0",
     "react-redux": "^4.0.0",
     "redux": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13"
   }
 }
