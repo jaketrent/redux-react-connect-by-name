@@ -1,6 +1,5 @@
 {
   "name": "redux-react-connect-by-name",
-  "version": "0.1.1",
   "description": "Connect to a redux store using named selectors mapped to your reducers",
   "main": "index.js",
   "scripts": {
