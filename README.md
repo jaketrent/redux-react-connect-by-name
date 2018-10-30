@@ -7,7 +7,7 @@ A redux connector that allows you to:
 
 This has a few benefits of:
 
-- Have you action creators bound to dispatch for you
+- Have your action creators bound to dispatch for you
 - Not requiring you to specify a new selector for every component you want to connect to the redux store
 - Have consistent namespacing for components that connect to multiple reducers' state
 - Keeping the component file clean of selector construction
